@@ -4,9 +4,10 @@ A grounded knowledge-base assistant built with FastAPI, LangGraph, Qdrant, and L
 indexes a Markdown corpus, retrieves relevant evidence, and returns answers with explicit source
 citations.
 
-The project is designed to be easy to inspect and reproduce locally. Its default offline mode is
-deterministic, requires no API key, and exercises the complete RAG path without claiming
-production readiness.
+The project uses a production-oriented architecture with explicit ingestion, retrieval,
+orchestration, grounding, and evaluation layers. Its default offline mode is deterministic,
+requires no API key, and exercises the complete RAG pipeline while keeping infrastructure
+dependencies minimal.
 
 ## Highlights
 
