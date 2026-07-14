@@ -1,0 +1,32 @@
+{"question_id":"q01","question":"Who must enable multi-factor authentication?","expected_status":"ok","expected_doc_ids":["faq-access-mfa"]}
+{"question_id":"q02","question":"Which MFA methods are supported for dashboard access?","expected_status":"ok","expected_doc_ids":["faq-access-mfa"]}
+{"question_id":"q03","question":"How long can sandbox access be approved without extra security review?","expected_status":"ok","expected_doc_ids":["guide-access-sandbox"]}
+{"question_id":"q04","question":"When are monthly invoices generated?","expected_status":"ok","expected_doc_ids":["faq-billing-invoices"]}
+{"question_id":"q05","question":"What happens when a customer goes over their contracted usage?","expected_status":"ok","expected_doc_ids":["policy-billing-overages"]}
+{"question_id":"q06","question":"When should I start a deployment rollback?","expected_status":"ok","expected_doc_ids":["runbook-deploy-rollback"]}
+{"question_id":"q07","question":"Who owns a preview environment for a pull request?","expected_status":"ok","expected_doc_ids":["guide-deploy-preview"]}
+{"question_id":"q08","question":"What is the standard maintenance window?","expected_status":"ok","expected_doc_ids":["policy-deployments-maintenance-window"]}
+{"question_id":"q09","question":"How do I reconnect an expired Slack integration token?","expected_status":"ok","expected_doc_ids":["guide-integrations-slack"]}
+{"question_id":"q10","question":"When do legacy webhook tokens stop working?","expected_status":"ok","expected_doc_ids":["release-note-integrations-march-2026","guide-integrations-webhooks"]}
+{"question_id":"q11","question":"How should API keys be stored?","expected_status":"ok","expected_doc_ids":["faq-security-api-keys"]}
+{"question_id":"q12","question":"In the security incident runbook, what does severity 2 mean for unauthorized access?","expected_status":"ok","expected_doc_ids":["runbook-security-incident"],"filters":{"topic":"security","doc_type":"runbook"}}
+{"question_id":"q13","question":"How long does emergency admin access last?","expected_status":"ok","expected_doc_ids":["runbook-access-emergency-admin"]}
+{"question_id":"q14","question":"Who must approve emergency admin access?","expected_status":"ok","expected_doc_ids":["runbook-access-emergency-admin"]}
+{"question_id":"q15","question":"According to the service account access policy, how often do production service account credentials rotate?","expected_status":"ok","expected_doc_ids":["policy-access-service-accounts"],"filters":{"topic":"access","doc_type":"policy"}}
+{"question_id":"q16","question":"What information is required for an invoice correction?","expected_status":"ok","expected_doc_ids":["runbook-billing-invoice-correction"]}
+{"question_id":"q17","question":"How quickly should support acknowledge a billing dispute?","expected_status":"ok","expected_doc_ids":["policy-billing-disputes"]}
+{"question_id":"q18","question":"What rollout stages should a feature flag follow?","expected_status":"ok","expected_doc_ids":["guide-deploy-feature-flags"]}
+{"question_id":"q19","question":"Who approves a severity 2 production hotfix?","expected_status":"ok","expected_doc_ids":["runbook-deploy-hotfix"]}
+{"question_id":"q20","question":"How old can a webhook timestamp be before consumers reject it?","expected_status":"ok","expected_doc_ids":["guide-integrations-webhooks"]}
+{"question_id":"q21","question":"When should GitHub sync be escalated to severity 2?","expected_status":"ok","expected_doc_ids":["runbook-integrations-github-sync"]}
+{"question_id":"q22","question":"How long are production audit logs retained?","expected_status":"ok","expected_doc_ids":["policy-security-data-retention"]}
+{"question_id":"q23","question":"What does the April 2026 billing CSV export include?","expected_status":"ok","expected_doc_ids":["release-note-billing-april-2026"]}
+{"question_id":"q24","question":"Can hotfixes run outside the standard maintenance window?","expected_status":"ok","expected_doc_ids":["runbook-deploy-hotfix","policy-deployments-maintenance-window"]}
+{"question_id":"q25","question":"What about access?","expected_status":"clarify","expected_doc_ids":[]}
+{"question_id":"q26","question":"How does that billing process work?","expected_status":"clarify","expected_doc_ids":[]}
+{"question_id":"q27","question":"Can you help me with this security thing?","expected_status":"clarify","expected_doc_ids":[]}
+{"question_id":"q28","question":"What about integrations?","expected_status":"clarify","expected_doc_ids":[]}
+{"question_id":"q29","question":"What is the weather in London today?","expected_status":"refuse","expected_doc_ids":[]}
+{"question_id":"q30","question":"Should I buy bitcoin this week?","expected_status":"refuse","expected_doc_ids":[]}
+{"question_id":"q31","question":"Who won the football match yesterday?","expected_status":"refuse","expected_doc_ids":[]}
+{"question_id":"q32","question":"Give me a pasta recipe for dinner.","expected_status":"refuse","expected_doc_ids":[]}
